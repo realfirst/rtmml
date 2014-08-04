@@ -1,0 +1,20 @@
+{ "namespace": "com.lakala.rtmml.mr",
+  "type" : "record",
+  "name" : "TERM_TYPE",
+  "fields" : [ {
+    "name" : "CODE",
+    "type" : [ "string", "null" ],
+    "columnName" : "CODE",
+    "sqlType" : "12"
+  }, {
+    "name" : "NAME",
+    "type" : [ "string", "null" ],
+    "columnName" : "NAME",
+    "sqlType" : "12"
+  }, {
+    "name" : "LOAD_DATE",
+    "type" : [ "long", "null" ],
+    "columnName" : "LOAD_DATE",
+    "sqlType" : "93"
+  } ]
+}

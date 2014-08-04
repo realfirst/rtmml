@@ -19,3 +19,5 @@ tt
 res
 dep-tree
 exec-dump
+!output.schema
+!TERM_TYPE.avsc

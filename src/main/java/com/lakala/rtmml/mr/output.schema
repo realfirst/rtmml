@@ -1,0 +1,31 @@
+{   
+    "type":"record",
+    "name":"PsamXY",
+    "fields" : [{
+    "name" : "S_NO",
+    "type" : [ "string", "null" ],
+    "columnName" : "S_NO",
+    "sqlType" : "12"
+  }, {
+    "name" : "LONGITUDE",
+    "type" : [ "string", "null" ],
+    "columnName" : "LONGITUDE",
+    "sqlType" : "12"
+  }, {
+    "name" : "LATITUDE",
+    "type" : [ "string", "null" ],
+    "columnName" : "LATITUDE",
+    "sqlType" : "12"
+  },{
+    "name" : "TERM_TYPE",
+    "type" : [ "string", "null" ],
+    "columnName" : "TERM_TYPE",
+    "sqlType" : "12"
+  }, {
+    "name" : "PSAM",
+    "type" : [ "string", "null" ],
+    "columnName" : "PSAM",
+    "sqlType" : "12"
+  }
+    ]
+}
